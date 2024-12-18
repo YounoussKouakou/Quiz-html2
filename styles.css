@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: bisque;
+}
+/* la nav */
+.navbar {
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+}
+.navbar-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navbar-nav li {
+    margin: 0 15px;
+}
+
+.navbar-nav a {
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-nav a:hover {
+    background-color: black;
+}
+/* footer */
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-nav {
+    list-style: none;
+    margin: 10px 0;
+    padding: 0;
+}
+/* Style du pied de page */
+.footer {
+    background-color: blue;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-nav {
+    list-style: none;
+    margin: 10px 0;
+    padding: 0;
+}
+
+.footer-nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+    color: #ddd;
+}
+
+.footer p {
+    margin: 10px 0;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    color: #ddd;
+}
+/* General container styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+h1{
+    font-size: 50px;
+    color: blue;
+    text-align: center
+}
+.section{
+    margin-top: 20px;
+   
+}
+.image{
+   
+text-align: center;
+}
+img{
+    margin: auto;
+    display: flex;
+    text-align: center;
+    position: relative;
+    
+}
+.main{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.dev{
+    text-align: center;
+}
+ol li{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding-inline-start: 40px;
+}
+article{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.form{
+    text-align: center;
+    justify-content: center;
+}
+input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+label {
+    display: inline-block;
+    width: 100px; /* largeur fixe pour aligner les inputs */
+    margin-right: 10px;
+}
